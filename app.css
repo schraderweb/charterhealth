@@ -42,6 +42,9 @@ footer .footer__link{
 .partner_icon a {
     cursor: auto !important;
 }
+.btns button {
+    cursor: pointer;
+}
 .boxme {
     text-align: center;
     padding: 20px 34px;
