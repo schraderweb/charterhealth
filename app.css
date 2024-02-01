@@ -42,7 +42,7 @@ footer .footer__link{
 .partner_icon a {
     cursor: auto !important;
 }
-.btns button {
+.btns button, #btn-tap-to {
     cursor: pointer;
 }
 .boxme {
