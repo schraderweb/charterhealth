@@ -12,6 +12,7 @@ footer .footer__link{
     justify-content: center;
     gap: 10px;
     margin-bottom: 15px;
+    flex-wrap: wrap;
 }
 .text-black {
     color: black !important;
@@ -38,6 +39,9 @@ footer .footer__link{
 .d-none {
     display: none !important;;
 }
+.partner_icon a {
+    cursor: auto !important;
+}
 .boxme {
     text-align: center;
     padding: 20px 34px;
@@ -49,6 +53,29 @@ footer .footer__link{
     box-shadow: 0 0 7px 0 rgb(0 0 0/20%);
     transition: all 0.2s ease;
     }
+    .boxme-orange{
+        border-top: 5px solid orange !important;
+    }
+    .call-button {
+        text-align: center;
+        background-color: #49b74e;
+        border-radius: 3px;
+        border-color: transparent;
+        padding: 15px 0px;
+        margin: 10px 0;
+        color: white;
+        font-weight: bold;
+        font-size: 1.5rem;
+        text-decoration: none;
+        display: block;
+        cursor: pointer;
+        width: 100%;
+        margin-bottom: 1.125rem;
+        animation: pulsing 1s infinite;
+        }
+        .countdown {
+            color: red;
+            }
     @media only screen and (max-width: 600px) {
         .btns{
             display: flex;
