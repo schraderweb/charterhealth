@@ -89,9 +89,31 @@ footer .footer__link{
         }
         .question h4{
             text-align: center;
+            color: #fff !important;
         }
         .call-button {
             width: 100%;
         }
       }
-   
+      .fl-row-content-wrap {
+        background-color: transparent !important;
+        border: none !important;
+      }
+
+      #header_logo img {
+        width: 250px;
+        height: auto !important;
+      }
+      .div {
+        background: url(img/people-posing-together-registration-day.webp);
+        background-size: cover;
+        position: relative;
+    
+      }
+      .partner-logos .fl-node-content{
+        background-color: #fff;
+      }
+      .question h4{
+        
+        color: #fff !important;
+    }

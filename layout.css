@@ -1754,7 +1754,8 @@ img.mfp-img {
 .fl-row .fl-col .fl-node-6499bdd51fc7e h1.fl-heading .fl-heading-text,
 .fl-row .fl-col .fl-node-6499bdd51fc7e h1.fl-heading .fl-heading-text *,
 .fl-node-6499bdd51fc7e h1.fl-heading .fl-heading-text {
-  color: #1c2b33;
+  /* color: #1c2b33; */
+  color: #ffffff;
 }
 .fl-node-6499bdd51fc7e.fl-module-heading .fl-heading {
   font-family: Montserrat, sans-serif;
@@ -1795,7 +1796,8 @@ img.mfp-img {
 }
 .fl-node-6499bdd51fc7f .fl-rich-text,
 .fl-node-6499bdd51fc7f .fl-rich-text * {
-  color: #1c2b33;
+  /* color: #1c2b33; */
+  color: #ffffff;
   font-family: Montserrat, sans-serif;
   font-weight: 600;
   font-size: 20px;
@@ -1842,7 +1844,8 @@ img.mfp-img {
 }
 .fl-node-6494833c091c1 .fl-rich-text,
 .fl-node-6494833c091c1 .fl-rich-text * {
-  color: #1c2b33;
+  /* color: #1c2b33; */
+  color: #ffffff;
   font-family: Montserrat, sans-serif;
   font-weight: 500;
   font-size: 14px;
@@ -1875,7 +1878,8 @@ img.mfp-img {
 }
 .fl-node-6494833c091bf .fl-rich-text,
 .fl-node-6494833c091bf .fl-rich-text * {
-  color: #1c2b33;
+  /* color: #1c2b33; */
+  color: #ffffff;
   font-family: Montserrat, sans-serif;
   font-weight: 500;
   text-align: center;
@@ -3759,6 +3763,7 @@ a.btn-ctc-top:hover {
 body {
   font-family: "Montserrat", Sans-Serif;
   color: #1c2b33;
+
 }
 .bold {
   font-weight: 700 !important;
