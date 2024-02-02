@@ -61,7 +61,7 @@ footer .footer__link{
     }
     .call-button {
         text-align: center;
-        background-color: #49b74e;
+        background-color: orange;
         border-radius: 3px;
         border-color: transparent;
         padding: 15px 0px;
@@ -72,7 +72,9 @@ footer .footer__link{
         text-decoration: none;
         display: block;
         cursor: pointer;
-        width: 100%;
+        width: 50%;
+        text-align: center;
+        margin: auto;
         margin-bottom: 1.125rem;
         animation: pulsing 1s infinite;
         }
@@ -87,6 +89,9 @@ footer .footer__link{
         }
         .question h4{
             text-align: center;
+        }
+        .call-button {
+            width: 100%;
         }
       }
    

@@ -10,6 +10,7 @@ const question2 = document.getElementById("question2");
 const question1 = document.getElementById("question1");
 let choiceUnder = true;
 let choiceMedical = true;
+let under65 = true;
 const q2Btn = document.querySelector("#q2");
 const q1Btn = document.querySelector("#q1");
 const q3Btn = document.querySelector("#q3");
@@ -50,7 +51,7 @@ function startTimer() {
 
 const showText1 = () => {
     console.log(choiceMedical , choiceUnder);
-    if(choiceMedical == false && choiceUnder == true ) {
+    if(choiceMedical == false && choiceUnder == false && under65 == false ) {
         var timerInterval = setInterval(startTimer, 1000);
         document.getElementById("qualify").style.display = "block";
     }else {
@@ -88,12 +89,12 @@ q2BtnNo.addEventListener("click", () => {
 });
 q3BtnYes.addEventListener("click", () => {
     q3Btn.style.display = "none";
-    choiceMedical = true;
+    under65 = true;
     showText1();
 });
 q3BtnNo.addEventListener("click", () => {
     q3Btn.style.display = "none";
-    choiceMedical = false;
+    under65 = false;
     showText1();
 });
 
