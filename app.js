@@ -98,4 +98,6 @@ q3BtnNo.addEventListener("click", () => {
     showText1();
 });
 
+document.getElementById("year").innerHTML = new Date().getFullYear();
+
 
